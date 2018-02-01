@@ -1,0 +1,30 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "A portfolio of theoretical products aimed at demonstrating Bootstrap4, SASS, Gulp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayanm-10/BootstrapTurner.git"
+  },
+  "author": "Sayan Mukherjee [CWID 10430998]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sayanm-10/BootstrapTurner/issues"
+  },
+  "homepage": "https://github.com/sayanm-10/BootstrapTurner#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "jquery": "^3.3.1"
+  }
+}
