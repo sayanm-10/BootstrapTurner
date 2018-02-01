@@ -1,6 +1,16 @@
-@import "bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import "override.scss";
 
 body {
     background-color: $grey;
+}
+
+.portfolio{
+    &.container {
+        max-width: 100%;
+    }
+}
+
+.product {
+    padding-top: 10px;
 }
