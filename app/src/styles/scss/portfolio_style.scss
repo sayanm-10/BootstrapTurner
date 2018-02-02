@@ -2,7 +2,8 @@
 @import "override.scss";
 
 body {
-    background-color: $grey;
+    background: linear-gradient(180deg, $white, $black);
+    font-family: $font-family-base;
 }
 
 .portfolio{

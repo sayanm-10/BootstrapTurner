@@ -1,5 +1,7 @@
 $red: #cf202e;
-$grey: #d2d2d2;
+$gray: #d2d2d2;
+
+$font-family-base: Tahoma, Geneva, sans-serif;
 
 .row {
     margin: 0 auto;
@@ -7,8 +9,13 @@ $grey: #d2d2d2;
 
 .card {
     margin: 0 auto;
+    max-width: 386px;
+    &:hover {
+        box-shadow: 0 0 6px rgba(35, 173, 255, 1);
+    }
 }
 
 img.card-img-top {
     height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
