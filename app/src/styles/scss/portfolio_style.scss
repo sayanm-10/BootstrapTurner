@@ -40,6 +40,9 @@ body {
     .navigation {
         position: fixed;
         z-index: 10;
+        .menu_title {
+            text-align: center;
+        }
     }
     .portfolio {
         &.container {
@@ -49,6 +52,7 @@ body {
     .item_list {
         position: relative;
         top: 0;
+        padding: 0 30px; 
         li {
             display: inline-block;
             width: 156px;
@@ -60,7 +64,8 @@ body {
     }
 }
 
-@media screen and (max-width: 374px) {
+/* Extra small screen*/
+@media screen and (max-width: 394px) {
     .portfolio {
         &.container {
             padding-top: 335px;
