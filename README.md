@@ -3,6 +3,7 @@
 
 
 ### To run
+Go to terminal and execute
 > npm install
 
 > npm start
