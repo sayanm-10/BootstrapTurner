@@ -3,9 +3,12 @@
 
 
 ### To run
-Go to terminal and execute
+Download or clone the repository. 
+
+Go to terminal, traverse to the BootstrapTurner directory and execute
+
 > npm install
 
 > npm start
 
-Go to localhost:5000 on your browser
+Go to localhost:5000 on your browser. All other routes except '/' go to a 404 page.
