@@ -26,3 +26,11 @@ $font-family-base: Tahoma, Geneva, sans-serif;
     width: 100%;
     text-align: center;
 }
+.btn-info {
+    background-color: #008295;
+    border-color: #008295;
+    &:hover {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+}
