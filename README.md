@@ -12,3 +12,5 @@ Go to terminal, traverse to the BootstrapTurner directory and execute
 > npm start
 
 Go to localhost:5000 on your browser. All other routes except '/' go to a 404 page.
+
+__P.S. Connection to Internet is needed as jQuery is served from CDN__
